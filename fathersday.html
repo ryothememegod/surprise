@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Father's Day</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+        .message {
+            font-size: 50px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61, 0 0 40px #ff6f61, 0 0 50px #ff6f61, 0 0 60px #ff6f61, 0 0 70px #ff6f61;
+            }
+            to {
+                text-shadow: 0 0 20px #ff3b3f, 0 0 30px #ff3b3f, 0 0 40px #ff3b3f, 0 0 50px #ff3b3f, 0 0 60px #ff3b3f, 0 0 70px #ff3b3f, 0 0 80px #ff3b3f;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="message">Happy Father's Day!</div>
+</body>
+</html>
